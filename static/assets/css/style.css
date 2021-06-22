@@ -1,7 +1,4 @@
-<style type="text/css">
-{
-    box-sizing: border-box;
-}
+<style>
 
 div {
   border-radius: 5px;
@@ -20,22 +17,23 @@ body {
     text-align: center;
     background: #F3F3F5;
 }
-
 .header h1 {
   font-size: 50px;
   color: #FF00BF;
 }
-
+p {
+  font-size: 25px;
+  color: #333447;
+}
 input[type=text], select {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
-  border: 1px solid #ccc;
+  border: 1px solid #F3F3F5;
   border-radius: 4px;
   box-sizing: border-box;
 }
-
 input[type=submit] {
   width: 100%;
   background-color: #352384;
@@ -46,14 +44,7 @@ input[type=submit] {
   border-radius: 4px;
   cursor: pointer;
 }
-
 input[type=submit]:hover {
   background-color: #333447;
 }
-
-label{
-color: #FF00BF;
-font-family: Arial
-}
-
 </style>
