@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Mini Flask Project</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="{{ url_for('static', filename='assets/css/style.css') }}" />
+  </head>
+      <body>
+        <div class="header">
+          <form method="post" action="/submit">
+                  <h1>Slicing a String</h1>
+                    <p>Enter a string below and click "Submit" to get a string containing every third letter from the original string.</p>
+                    <br><br>
+                    <input type="text" name="string_to_cut" min="3" placeholder="Please enter a string longer than 3 letters"/><br><br>
+                    <br><br>   
+                    <input type="submit" value="Submit"/><label>
+          </form>
+        </div>
+      </body>
+</html>
